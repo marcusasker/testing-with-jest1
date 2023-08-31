@@ -16,7 +16,6 @@ function renderComponent() {
 }
 
 test('render the corect number of rows', () => {
-
     renderComponent();
     // Find all the rows in the table
     const rows = within(screen.getByTestId('users')).getAllByRole('row')
